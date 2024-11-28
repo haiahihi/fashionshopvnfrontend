@@ -1,0 +1,251 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100% !important;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*header*/
+.header{
+    background-color: black;
+    height: 45px;
+}
+.header .top span{
+    color: #fff;
+    font-size: 16px;
+}
+.mienphiship{
+    padding-left: 350px;
+    padding-right: 590px;
+    line-height: 45px;
+
+}
+button{
+    background-color: #fff;
+    border:none;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+     outline: none;
+     cursor: pointer;
+     text-decoration: none;
+     color: #000; 
+}
+button:active, button:focus,button:hover{
+    text-decoration:underline red;
+    transition: all,0.5s ease;
+
+}
+form{
+    display: inline;
+}
+.header .top a.chucnang{
+    text-transform: uppercase;
+    text-decoration: none !important;
+    padding-right: 30px;
+    color: #fff;
+}
+.header .menu{
+    line-height: 80px;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+}
+.header .menu .tenshop{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 350px;
+    padding-right: 150px;
+    font-weight: bold;
+}
+.header .menu .home{
+    padding-right: 50px;
+}
+.header .menu .shop{
+    padding-right: 50px;
+}
+.header .menu .pages{
+    padding-right: 50px;
+}
+.header .menu .icon{
+    padding-left: 200px;
+    word-spacing: 10px;
+}
+u{
+    text-decoration-color: red;
+}
+/*Pages*/
+.container_pages{
+    width: 100%;
+    height:150px;
+    background-color: #f3f2ee;
+    margin-top: 100px;
+}
+.container_pages .text_pages{
+    padding-top: 40px;
+    line-height: 40px;
+    padding-left: 350px;
+}
+.container_pages .text_pages .text_pages_top{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container_pages .text_pages .text_pages_foot a{
+    text-decoration: none;
+    color: #000;
+    text-transform:capitalize;
+}
+.container_pages .text_pages .text_pages_foot a.a_pages{
+    color: #9e9e9e;
+}
+.container{
+    width: 1190px;margin: 50px auto;
+
+}
+.banner_text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner_text .question{
+    flex-basis: 31.8%;
+    margin: 8px;
+}
+.banner_text .question .question1{
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.banner_text .question .answer1{
+    font-size: 13px;
+}
+/*designer*/
+.designer{
+    width: 100%;
+    background-color: #f3f2ee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.designer .designer_text{
+    flex-basis: 49%;
+    text-align: center;
+}
+.designer .designer_img{
+    flex-basis: 49%;
+    width: 758px;
+}
+.designer .designer_text .icon{
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+.designer .designer_text .text{
+    margin: 0 auto;
+    width: 460px;
+    color: #111111;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    padding-top: 12px;
+    margin-bottom: 25px;
+}
+.designer .designer_text .img{
+    width: 220px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.designer .designer_text .img .img_info{
+    flex: basis 30%;
+    overflow: hidden;
+    display: inline-block;
+    border-radius:30px; 
+}
+.designer .designer_text .img .img_text_name{
+    font-size: 17px;
+    font-weight: 500;
+}
+.designer .designer_text .img .img_text_job{
+    font-style: italic;
+    color: #9e9e9e;
+}
+/*counter*/
+.count{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_counter{
+    width: 1190px;margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_counter .content{
+    flex-basis: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_counter .content .number{
+    flex-basis: 40%;
+    font-size: 60px;
+    font-weight: 600;
+}
+.container_counter .content .text{
+    margin-top: 10px;
+    display: block;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    width: 40px;
+}
+hr{
+    margin: 100px auto;
+}
+/*team*/
+.container_team{
+    width: 1190px;margin: 50px auto;
+}
+.team_text{
+    padding-bottom: 100px;
+    text-align: center;
+    line-height: 60px;
+}
+.team_text .team_text_1{
+    color: #e53637;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.team_text .team_text_2{
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.team_img_info{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.team_img_info .team_img{
+    flex-basis: 25%;
+    margin: 0 auto;
+}
+.team_img_info .team_img .info{
+    line-height: 40px;
+}
+.team_img_info .team_img .info_name{
+    font-weight: 600;
+    font-size: 24px;
+}
+.team_img_info .team_img .info_job{
+    color: #9e9e9e;
+}
+
+
+

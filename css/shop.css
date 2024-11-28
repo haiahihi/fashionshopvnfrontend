@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-color: black;
+    height: 45px;
+}
+.header .top span{
+    color: #fff;
+    font-size: 16px;
+}
+.mienphiship{
+    padding-left: 350px;
+    padding-right: 590px;
+    line-height: 45px;
+
+}
+button{
+    background-color: #fff;
+    border:none;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+     outline: none;
+     cursor: pointer;
+     text-decoration: none;
+     color: #000; 
+}
+button:active, button:focus,button:hover{
+    text-decoration:underline red;
+    transition: all,0.5s ease;
+
+}
+u{
+    text-decoration-color: red;
+}
+form{
+    display: inline;
+}
+.header .top a.chucnang{
+    text-transform: uppercase;
+    text-decoration: none !important;
+    padding-right: 30px;
+    color: #fff;
+}
+.header .menu{
+    line-height: 80px;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+}
+.header .menu .tenshop{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 350px;
+    padding-right: 150px;
+    font-weight: bold;
+}
+.header .menu .home{
+    padding-right: 50px;
+}
+.header .menu .shop{
+    padding-right: 50px;
+}
+.header .menu .pages{
+    padding-right: 50px;
+}
+.header .menu .icon{
+    padding-left: 200px;
+    word-spacing: 10px;
+}
+u{
+    text-decoration-color: red;
+}
+
+.container_pages{
+    width: 100%;
+    height:150px;
+    background-color: #f3f2ee;
+    margin-top: 100px;
+}
+.container_pages .text_pages{
+    padding-top: 40px;
+    line-height: 40px;
+    padding-left: 350px;
+}
+.container_pages .text_pages .text_pages_top{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container_pages .text_pages .text_pages_foot a{
+    text-decoration: none;
+    color: #000;
+    text-transform:capitalize;
+}
+.container_pages .text_pages .text_pages_foot a.a_pages{
+    color: #9e9e9e;
+}
+
+
+
+.about {
+    width: 100%;
+}
+
+.about .container {
+    padding-top: 100px;
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 375px;
+}
+
+.about .container .menu {
+    flex-basis: 25%;
+}
+
+.about .container .imgg{
+    flex-basis: 75%;
+}
+
+.about .container .menu .ul_thumuc {
+    list-style: none;
+}
+.about .container .menu .ul_thumuc li{
+    font-size: 15px;
+}
+.about .container .menu .ul_thumuc li.main{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left:-10px;
+}
+
+.about .container .menu .ul_thumuc li.extra{
+    color: #9e9e9e;
+}
+
+.about .container .menu .ul_size {
+    width: 170px;
+    list-style: none;
+}
+.about .container .menu .ul_size li{
+    font-size: 15px;
+}
+.about .container .menu .ul_size li.main{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left:-10px;
+}
+.about .container .menu .ul_size li.extra{
+    padding:0 5px;
+    color: #9e9e9e;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid;
+}
+
+.about .container .menu .ul_thumuc li.extra{
+    color: #9e9e9e;
+}
+
+.about .container .menu .ul_mau {
+    list-style: none;
+    height: 120px;
+    width: 150px;
+
+}
+
+.about .container .menu .ul_mau li{
+    font-size: 15px;
+}
+
+.about .container .menu .ul_mau li.main{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left:-10px;
+}
+
+.about .container .menu .ul_mau li.red{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:red;
+}
+
+.about .container .menu .ul_mau li.green {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:green;
+}
+
+.about .container .menu .ul_mau li.purple {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:purple;
+}
+
+.about .container .menu .ul_mau li.orange {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:orange;
+}
+
+.about .container .menu .ul_mau li.yellow {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:yellow;
+}
+.about .container .menu .ul_mau li.blue {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:blue;
+}
+
+
+
+
+
+
+.about .container .imgg .ul_products{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+
+.about .container .imgg .ul_products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.about .container .imgg .ul_products li img{
+    width: 200px;
+    height: auto;
+}
+
+.about .container .imgg .ul_products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+
+.about .container .imgg .ul_products li .product-top .product-thumb{
+    display: block;
+}
+
+.about .container .imgg .ul_products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+}
+
+.about .container .imgg .ul_products li .product-top .product-thumb img{
+    display: block;
+}
+
+.about .container .imgg .ul_products li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -42px;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+    opacity: 1;
+}
+
+.about .container .imgg .ul_products li:hover a.buy-now{
+    bottom: 0px;
+}
+
+.about .container .imgg .ul_products li .product-info{
+    padding: 20px 0px;
+}
+
+.about .container .imgg .ul_products li .product-info a{
+    display: block;
+    text-decoration: none;/*xoa dau gach chan*/
+}
+
+
+.about .container .imgg .ul_products li .product-info a.product-cat{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding: 3px 0px;
+    /*doi form chu cua chu de sp*/
+}
+
+.about .container .imgg .ul_products li .product-info a.product-name{
+    font-size: 18px;
+    color: #111;
+    padding: 3px 0px;
+    /*doi form chu ten sp*/
+}
+
+.about .container .imgg .ul_products li .product-info div.product-price{
+    color: #111;
+    padding: 2px 0px;
+    font-weight: 700;
+}
+
+.bottom{
+    padding-top: 100px;
+}
+

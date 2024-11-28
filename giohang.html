@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/giohang.css">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <div class="header">
+        <div class="top">
+        <span class="mienphiship">Miễn phí ship,đổi trả hoàn tiền trong 30 ngày</span>
+        <a href="./Dang Nhap.html" class="chucnang">Đăng nhập</a>
+        <a href="./Dang Ky.html" class="chucnang">Đăng kí</a>
+        <span class="chucnang">VN</span>
+        </div>
+        <div class="menu">
+            <span class="tenshop">2H2M Shop</span>
+            <form action="trangchu.html"  >
+                <button class="home">Home</button>
+            </form>
+            <form action="./shop.html">
+                <button class="shop">Shop</button>
+            </form>
+            <form action="./sanphambanchay.html">
+                <button class="pages">Hot selling</button>
+            </form>
+            <form action="">
+                <button class="blog">Page</button>
+            </form>
+            <span class="icon">
+                <img src="img/icon/search.png" alt="">&nbsp;&nbsp;
+                <img src="img/icon/heart.png" alt="">&nbsp;&nbsp;
+                <img src="img/icon/cart.png" alt="">
+                <span>0đ</span>
+            </span>
+        </div>
+    </div>
+    <section class="pages">
+        <div class="container_pages">
+            <div class="text_pages">
+                <div class="text_pages_top">Pages</div>
+                <div class="text_pages_foot">
+                    <a href="./trangchu.html" class="a_home">Home</a>
+                    <span>></span>
+                    <a href="./giohang.html" class="a_pages">Shopping Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cart">
+        <div class="cart">
+            <div class="container_cart">
+                <div class="product">
+                    <div class="product_content">
+                        <div class="p_c_product1">
+                            sản phẩm
+                        </div>
+                        <div class="p_c_quantity1">
+                            số lượng
+                        </div>
+                        <div class="p_c_total1">
+                            tổng cộng
+                        </div>
+                    </div>
+                    <hr color="#ececec"
+                    width="96%">
+                    <div class="product_content">
+                        <div class="p_c_product">
+                            <img src="img/shopping-cart/cart-1.jpg" alt="">
+                            <div class="info">
+                                <h6>áo biker jacket</h6>
+                                <h5>700.000đ</h5>
+                            </div>
+                        </div>
+                        <div class="p_c_quantity">
+                            <div class="buy_amount">
+                                <button class="minus" onclick="handleminus()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                      </svg>              
+                                </button>
+                                <input type="text" name="amount" id="amount" value="1">
+                                <button class="plus" onclick="handleplus()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                      </svg>              
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p_c_total">
+                            700.000đ
+                        </div>
+                    </div>
+                    <hr color="#ececec"
+                    width="96%">
+
+                    <div class="product_content">
+                        <div class="p_c_product">
+                            <img src="img/shopping-cart/cart-2.jpg" alt="">
+                            <div class="info">
+                                <h6>giày thời trang âu</h6>
+                                <h5>800.000đ</h5>
+                            </div>
+                        </div>
+                        <div class="p_c_quantity">
+                            <div class="buy_amount">
+                                <button class="minus" onclick="handleminus1()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                      </svg>              
+                                </button>
+                                <input type="text" name="amount1" id="amount1" value="1">
+                                <button class="plus" onclick="handleplus1()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                      </svg>              
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p_c_total">
+                            800.000đ
+                        </div>
+                    </div>
+                    <hr color="#ececec"
+                    width="96%">
+
+                    <div class="product_content">
+                        <div class="p_c_product">
+                            <img src="img/shopping-cart/cart-3.jpg" alt="">
+                            <div class="info">
+                                <h6>Khăn cotton giữ ấm cổ thời trang</h6>
+                                <h5>200.000đ</h5>
+                            </div>
+                        </div>
+                        <div class="p_c_quantity">
+                            <div class="buy_amount">
+                                <button class="minus" onclick="handleminus2()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                      </svg>              
+                                </button>
+                                <input type="text" name="amount2" id="amount2" value="1">
+                                <button class="plus" onclick="handleplus2()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                      </svg>              
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p_c_total">
+                            200.000đ
+                        </div>
+                    </div>
+                    <hr color="#ececec"
+                    width="96%">
+                    
+                    <div class="product_content">
+                        <div class="p_c_product">
+                            <img src="img/shopping-cart/cart-4.jpg" alt="">
+                            <div class="info">
+                                <h6>Balo da thời trang</h6>
+                                <h5>1200.000đ</h5>
+                            </div>
+                        </div>
+                        <div class="p_c_quantity">
+                            <div class="buy_amount">
+                                <button class="minus" onclick="handleminus3()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                                      </svg>              
+                                </button>
+                                <input type="text" name="amount3" id="amount3" value="1">
+                                <button class="plus" onclick="handleplus3()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                      </svg>              
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p_c_total">
+                            1200.000đ
+                        </div>
+                    </div>
+                    <hr color="#ececec"
+                    width="96%">
+                    
+                </div>
+                <div class="total_price">
+                    <div class="discount">
+                        <div class="text">
+                            mã giảm giá
+                        </div>
+                        <div class="input">
+                            <input type="text" placeholder="Nhập mã giảm giá">
+                            <button class="apply">aplly</button>
+                        </div>
+                    </div>
+                    <div class="bill">
+                        <h3>hóa đơn</h3>
+                        <p>
+                            <span class="text">Số lượng:</span>
+                            <span>4</span>
+                        </p>
+                        <p>
+                            <span class="text">Tổng tiền:</span>
+                            <span>2900.000đ</span>
+                        </p>
+                        <button >Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="continue_update">
+            <div class="continue">
+               <a href="./shop.html" class="txt">Tiếp tục mua</a>
+            </div>
+            <div class="update">
+                update giỏ hàng
+            </div>
+        </div>
+    </section>
+    <script src="./js/xuly.js"></script>
+    <div class="bottom">
+        <img src="img/botom.png" alt="">
+       </div>
+</body>
+</html>
